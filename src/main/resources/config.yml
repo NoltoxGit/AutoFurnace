@@ -1,0 +1,17 @@
+Furnaces:
+  1:
+    Hand: COAL_ORE
+    Result: COAL
+  2:
+    Hand: IRON_ORE
+    Result: IRON_INGOT
+
+CommandAliases:
+  - furnace
+  - smelt
+
+Cooldowns:
+  Permissions:
+    autofurnace.cooldown.1: 60 #Delay in seconds
+    autofurnace.cooldown.2: 120 #Delay in seconds
+    autofurnace.cooldown.3: 180 #Delay in seconds

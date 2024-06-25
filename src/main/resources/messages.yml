@@ -1,0 +1,8 @@
+messages:
+  prefix: "<dark_gray>[<gradient:#FDEB71:#F8D800><b>AutoFurnace</b></gradient>]</dark_gray> "
+  noPermission: "<color:#e80000>You do not have permission to execute this command.</color>"
+  mustHoldItem: "<color:#e80000>You must hold an item in your hand.</color>"
+  itemCannotBeCooked: "<color:#e80000>This item cannot be cooked.</color>"
+  itemCooked: "<color:#6eff0d>Your item has been cooked into <color:#fff021>%result%</color>.</color>"
+  configReloaded: "<color:#6eff0d>AutoFurnace configuration reloaded!</color>"
+  cooldownActive: "<color:#e80000>You must wait %time% seconds before using this command again.</red>"

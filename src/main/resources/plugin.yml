@@ -1,0 +1,19 @@
+name: AutoFurnace
+version: '${version}'
+main: fr.heavencube.autofurnace.AutoFurnacePlugin
+api-version: '1.20'
+commands:
+  autofurnace:
+    description: Cook the item in your hand
+    usage: /autofurnace
+    permission: autofurnace.use
+  autofurnaceadmin:
+    description: Admin commands for AutoFurnace
+    usage: /autofurnaceadmin reload
+permissions:
+  autofurnace.use:
+    description: Allows the player to use the /autofurnace command
+    default: true
+  autofurnaceadmin.reload:
+    description: Allows the player to use the /autofurnaceadmin reload command
+    default: op
